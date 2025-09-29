@@ -1,0 +1,4 @@
+AAA,BBB,,a,a,a
+Montgomery,Burns,555-9809,1000 Mammon Lane,Springfield,90122
+Richie,Cunningham,555-6748,565 Clinton Drive,Milwaukee,22939
+Vernon,Dursley,01483 519606,4 Privet Drive,Surrey,38383
