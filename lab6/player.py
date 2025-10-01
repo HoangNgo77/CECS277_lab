@@ -16,22 +16,21 @@ class Player:
     """
 
     def __init__(self):
-        """
-        Construct and sort the three dice, then initialize points to 0.
-        """
+
+        #Construct and sort the three dice, then initialize points to 0.
         self._dice = [Die(), Die(), Die()]
         self._dice.sort()
         self._points = 0
 
     @property
     def points(self) -> int:
-        """Get the player's current points."""
+        #Get the player's current points.
         return self._points
 
     def roll_dice(self) -> None:
-        """
-        Roll all dice and sort them (ascending) afterward.
-        """
+        
+        #Roll all dice and sort them (ascending) afterward.
+    
         for d in self._dice:
             d.roll()
         self._dice.sort()

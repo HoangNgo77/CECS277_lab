@@ -1,7 +1,7 @@
 """
 main.py
 Authors: Phan Ngo - Lucas Seith
-Date: 9/29/2025
+Date: 10/01/2025
 Description:
 A simple Yahtzee-like dice game. Each turn rolls three dice and checks for:
 - Three-of-a-kind (+3 points)

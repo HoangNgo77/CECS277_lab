@@ -1,6 +1,6 @@
 """
 die.py
-CECS 277 – Lab 6 – Yahtzee
+CECS 277 Lab 6 Yahtzee
 Die class
 """
 
@@ -28,26 +28,26 @@ class Die:
         self.roll()
 
     def roll(self) -> int:
-        """
-        Roll the die to a random value in [1, _sides] and return it.
-        """
+        
+        #Roll the die to a random value in [1, _sides] and return it.
+        
         self._value = random.randint(1, self._sides)
         return self._value
 
     def __str__(self) -> str:
-        """Return the die's value as a string."""
+        #Return the die's value as a string.
         return str(self._value)
 
     def __lt__(self, other: "Die") -> bool:
-        """True if this die's value is less than the other die's value."""
+        #True if this die's value is less than the other die's value.
         return self._value < other._value
 
     def __eq__(self, other: object) -> bool:
-        """True if this die's value equals the other die's value."""
+        #True if this die's value equals the other die's value.
         if not isinstance(other, Die):
             return NotImplemented
         return self._value == other._value
 
     def __sub__(self, other: "Die") -> int:
-        """Return the difference between this die's value and the other's."""
+        #Return the difference between this die's value and the other's.
         return self._value - other._value
