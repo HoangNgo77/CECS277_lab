@@ -35,12 +35,10 @@ class Die:
         return self._value
 
     def __str__(self) -> str:
-        #Return the die's value as a string.
-        return str(self._value)
+        return str(self._value)             #Return the die's value as a string.
 
-    def __lt__(self, other: "Die") -> bool:
-        #True if this die's value is less than the other die's value.
-        return self._value < other._value
+    def __lt__(self, other: "Die") -> bool:  
+        return self._value < other._value   #True if this die's value is less than the other die's value.
 
     def __eq__(self, other: object) -> bool:
         #True if this die's value equals the other die's value.
@@ -48,6 +46,5 @@ class Die:
             return NotImplemented
         return self._value == other._value
 
-    def __sub__(self, other: "Die") -> int:
-        #Return the difference between this die's value and the other's.
-        return self._value - other._value
+    def __sub__(self, other: "Die") -> int:   
+        return self._value - other._value   #Return the difference between this die's value and the other's.
