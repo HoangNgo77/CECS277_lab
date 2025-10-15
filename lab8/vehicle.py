@@ -1,8 +1,4 @@
 """
-CECS 277 – Lab 8 – Abstract Classes
-Rad Racer — Vehicle base class
-Authors: Phan Ngo - Lucas Seith
-Date: 10/14/25
 Description:
     Abstract base class for all race vehicles. Implements common attributes,
     properties, and shared movement methods (fast/slow). Each subclass must

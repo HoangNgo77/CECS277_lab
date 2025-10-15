@@ -5,7 +5,6 @@ Car class — Nitro Boost (1.5x speed ±1, costs 15 energy; crashes on obstacles
 import random
 from vehicle import Vehicle
 
-
 class Car(Vehicle):
     """Car with Nitro Boost special move."""
 

@@ -1,4 +1,9 @@
 """
+Lab 8, Abstract Classes
+Rad Racer — Vehicle base class
+Authors: Phan Ngo - Lucas Seith
+Date: 10/14/25
+
 Rad Racer - main program loop
 
 Builds a 3 x 100 track, places two obstacles per lane, shows the menu, asks the
@@ -12,8 +17,8 @@ Track symbols:
 - 'C', 'M', 'T' are opponents' initials for Car, Motorcycle, and Truck
 
 Important details matched to the handout:
-- 3 lanes (Car, Motorcycle, Truck)  100 units (pages 1–2).
-- Two random obstacles per lane, not at start (0) or finish (99) (page 2).
+- 3 lanes (Car, Motorcycle, Truck)  100 units.
+- Two random obstacles per lane, not at start (0) or finish (99).
 - Opponents choose moves by weights: slow 40%, fast 30%, special 30%,
   but if energy < 5 they are forced to go slow (page 2).
 - Use list.index('0', start) to find next obstacle, with ValueError handling (page 2).
@@ -22,7 +27,6 @@ Important details matched to the handout:
 - Do not place outside the list when a vehicle passes the finish (page 6, h).
 """
 
-# from __future__ import annotations
 import random
 from typing import List, Tuple, Optional
 

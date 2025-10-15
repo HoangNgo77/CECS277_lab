@@ -6,7 +6,6 @@ costs 15 energy; on success it can still crash if an obstacle is in range).
 import random
 from vehicle import Vehicle
 
-
 class Motorcycle(Vehicle):
     """Motorcycle with better 'slow' and a risky Wheelie special move."""
 
